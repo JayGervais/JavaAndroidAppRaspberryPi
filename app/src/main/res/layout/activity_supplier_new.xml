@@ -31,13 +31,14 @@
             android:layout_height="wrap_content"
             android:textSize="30sp" />
 
-        <TextView
-            android:id="@+id/textView24"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="New Supplier"
-            android:textSize="30sp"
-            android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="New Supplier"
+                    android:textColor="#090c63"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
 
 
                 <TextView
@@ -201,21 +202,28 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName" />
-        <Button
-            android:id="@+id/btnSaveNewSupplier"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingTop="16dp"
-            android:paddingBottom="16dp"
-            android:text="Save Supplier"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
-        <Button
-            android:id="@+id/btnCancel"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@android:string/cancel"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+                <Button
+                    android:id="@+id/btnSaveNewSupplier"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#1151a6"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"
+                    android:text="Save Supplier"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnCancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#090c63"
+                    android:text="@android:string/cancel"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
                 <TextView
                     android:id="@+id/textView38"
                     android:layout_width="match_parent"

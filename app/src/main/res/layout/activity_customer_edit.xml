@@ -179,28 +179,40 @@
                     android:layout_height="55dp"
                     android:ems="10"
                     android:inputType="textPersonName" />
+
                 <Button
                     android:id="@+id/btnSaveCustomer"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="#1151a6"
                     android:paddingTop="16dp"
                     android:paddingBottom="16dp"
                     android:text="Save Changes"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/btnDeleteCustomer"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="#090c63"
                     android:paddingTop="16dp"
                     android:paddingBottom="16dp"
                     android:text="Delete Customer"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
                 <Button
                     android:id="@+id/btnCancel"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="#1151a6"
                     android:text="@android:string/cancel"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
 
 
             </LinearLayout>

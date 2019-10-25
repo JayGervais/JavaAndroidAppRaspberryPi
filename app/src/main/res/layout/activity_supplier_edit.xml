@@ -211,28 +211,38 @@
             android:text="Postal" />
 
                 <Button
-            android:id="@+id/btnSaveSupplier"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingTop="16dp"
-            android:paddingBottom="16dp"
-            android:text="Save Suppler"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
-        <Button
-            android:id="@+id/btnDeleteSupplier"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingTop="16dp"
-            android:paddingBottom="16dp"
-            android:text="Delete Supplier"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+                    android:id="@+id/btnSaveSupplier"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#1151a6"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"
+                    android:text="Save Suppler"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/btnCancel"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@android:string/cancel"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+                <Button
+                    android:id="@+id/btnDeleteSupplier"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#090c63"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"
+                    android:text="Delete Supplier"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnCancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#1151a6"
+                    android:text="@android:string/cancel"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
             </LinearLayout>
         </androidx.core.widget.NestedScrollView>
     </LinearLayout>

@@ -171,17 +171,23 @@
                     android:id="@+id/btnSaveNewCustomer"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="#1151a6"
                     android:paddingTop="16dp"
                     android:paddingBottom="16dp"
                     android:text="Save Customer"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/btnCancel"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="#090c63"
                     android:text="@android:string/cancel"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
                 <TextView
                     android:id="@+id/textView35"
                     android:layout_width="match_parent"
