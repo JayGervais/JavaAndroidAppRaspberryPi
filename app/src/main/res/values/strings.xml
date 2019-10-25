@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="agent_title">Agents</string>
+    <string name="customer_title">Customers</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="Alpha">Must be alphabetic characters (eg. A-Z, a-z )</string>
+    <string name="Address">Cannot contain special characters (eg. %#$^=)</string>
+    <string name="Phone">Not a recognized phone format(eg. 111-222-3333)</string>
+    <string name="Email">Not a valid e-mail (eg. jon123@travel.ca)</string>
+    <string name="Postal">Not a valid Postal Code (eg. A2B 3C4)</string>
+    <string name="Fax">Not a recognized fax format(eg. 111-222-3333)</string>
+    <string name="Url">Not a supported URL format</string>
+
+
+</resources>
